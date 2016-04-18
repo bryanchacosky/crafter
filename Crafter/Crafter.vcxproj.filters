@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{662b7592-faad-4602-ac45-ae638dbd9f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Crafter">
+      <UniqueIdentifier>{9b2272e3-feda-425b-8226-dd70f0a03eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Crafter\Crafter">
+      <UniqueIdentifier>{8dd3e908-bba7-42a7-9693-3ee879f121ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Crafter\CraftingObject">
+      <UniqueIdentifier>{6a280efd-34e5-40b8-8060-25ddb8c866fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftingObjects.cpp">
+      <Filter>Main\Crafter\CraftingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Crafter.cpp">
+      <Filter>Main\Crafter\Crafter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Crafter.h">
+      <Filter>Main\Crafter\Crafter</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftingObjectInterface.h">
+      <Filter>Main\Crafter\CraftingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftingObjects.h">
+      <Filter>Main\Crafter\CraftingObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
